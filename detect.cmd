@@ -52,7 +52,7 @@ goto enable
 
 :begin_main
 ::Alert Download
-bitsadmin /transfer n 158.69.62.13/detect.wav "C:\WINDOWS\Media\detect-alert.wav" > nul
+bitsadmin /transfer n https://raw.githubusercontent.com/Berowulf/Windows-VPNDetect/master/detect-alert.wav "C:\WINDOWS\Media\detect-alert.wav" > nul
 ::Quick Start
 C:
 cd %USERPROFILE%

@@ -12,12 +12,12 @@ cd %USERPROFILE%
 
 ::update
 echo Updating...
-bitsadmin /transfer n http://rootvpn.ninja/vpn/download/vpn_detect00/detect.cmd "%USERPROFILE%/detect.cmd" > nul
+bitsadmin /transfer n http://http://github.com/Berowulf/Windows-VPNDetect/detect.cmd "%USERPROFILE%/detect.cmd" > nul
 ::downloads
 ::main file(s)
-bitsadmin /transfer n http://rootvpn.ninja/vpn/download/vpn_detect00/detect.cmd "%USERPROFILE%/detect.cmd" > nul
+bitsadmin /transfer n http://github.com/Berowulf/Windows-VPNDetect/detect.cmd "%USERPROFILE%/detect.cmd" > nul
 ::sound files
-bitsadmin /transfer n http://rootvpn.ninja/vpn/download/vpn_detect00/intro.wav "%CD:~0,3%Temporary\intro-alert.wav" > nul
+bitsadmin /transfer n http://github.com/Berowulf/Windows-VPNDetect/intro.wav "%CD:~0,3%Temporary\intro-alert.wav" > nul
 
 ::
 echo Detector can be run now at any time from %USERPROFILE%\detect.cmd

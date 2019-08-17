@@ -12,12 +12,12 @@ cd %USERPROFILE%
 
 ::update
 echo Updating...
-bitsadmin /transfer n https://github.com/Berowulf/Windows-VPNDetect/blob/master/detect.cmd "%USERPROFILE%/detect.cmd" > nul
+bitsadmin /transfer n https://raw.githubusercontent.com/Berowulf/Windows-VPNDetect/master/detect.cmd "%USERPROFILE%/detect.cmd" > nul
 ::downloads
 ::main file(s)
-bitsadmin /transfer n https://github.com/Berowulf/Windows-VPNDetect/blob/master/detect.cmd "%USERPROFILE%/detect.cmd" > nul
+bitsadmin /transfer n https://raw.githubusercontent.com/Berowulf/Windows-VPNDetect/master/detect.cmd "%USERPROFILE%/detect.cmd" > nul
 ::sound files
-bitsadmin /transfer n https://github.com/Berowulf/Windows-VPNDetect/blob/master/intro-alert.wav "%CD:~0,3%Temporary\intro-alert.wav" > nul
+bitsadmin /transfer n https://raw.githubusercontent.com/Berowulf/Windows-VPNDetect/master/intro-alert.wav "%CD:~0,3%Temporary\intro-alert.wav" > nul
 
 ::
 echo Detector can be run now at any time from %USERPROFILE%\detect.cmd
